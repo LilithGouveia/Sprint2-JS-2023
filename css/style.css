@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+h2{
+    margin-left: 20px;
+    color: #5E9186;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 8px solid #6BF8D9;
+    border-bottom: 5px solid #6BF8D9;
+    margin-bottom: 1%;
+}
+
+header h2{
+    font-size: 30px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #E3B663;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(50, 50, 50);
+}
+
+.logo{
+    width: 150px;
+    height: 160px;
+    margin: 5px 10px
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    margin: 2pt, 0%, 0%, 5%;
+}
+
+.laranjinha{
+    color: #E3B663;
+    margin-right: 30px;
+}
+
+main{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+#div-inicial{
+    width: 100%;
+    display: flex;
+    margin: 2%;
+}
+
+#title{
+    width: 100%;
+    font-size: 250%;
+    text-align: center;
+    margin: 0;
+}
+
+.initial-text{
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 2%;
+    font-size: 150%;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+form input, textarea{
+    font-size: 20px;
+    width: 80%;
+    margin-top: 2%;
+}
+
+form button{
+    width: 40%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+#div-secundaria{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+    height: 30%;
+}
+
+#title2{
+    width: 100%;
+    font-size: 250%;
+    text-align: center;
+}
+
+#controle-detalhe{
+    display: flex;
+    height: 60%;
+}
+
+.detalhe{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 90%;
+    padding: 2%;
+    border: black 2px;
+    border-radius: 15px;
+}
+
+aside{
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 75vh;
+    margin-bottom: 5%;
+}
+
+img{
+    width: 90%;
+}
+
+.img2{
+    width: 45%;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+footer h2{
+    font-size: 30px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.foo-text{
+    text-align: right;
+    color: #E3B663
+}

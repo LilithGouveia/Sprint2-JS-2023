@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+
+h2{
+  color: #5E9186;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+}
+  
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 2%;
+  font-size: 150%;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 8px solid #6BF8D9;
+  border-bottom: 5px solid #6BF8D9;
+  margin-bottom: 1%;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #E3B663;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(50, 50, 50);
+}
+
+.logo{
+  width: 150px;
+  height: 160px;
+  margin: 5px 10px
+}
+
+.logo2{
+  width: 200px;
+  height: 100px;
+  margin: 2pt, 0%, 0%, 5%;
+}
+
+.laranjinha{
+  color: #E3B663;
+  margin-right: 30px;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+main h2{
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 10% 0%;
+}
+
+#faixa-matriz{
+  display: flex;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-image: url("../img/oxigenio.png");
+  height: 20vh;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+.foo-text{
+  text-align: right;
+  color: #E3B663
+}
