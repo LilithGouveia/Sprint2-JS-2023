@@ -12,7 +12,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-self: flex-end;
-  
 }
 
 h2{
@@ -75,12 +74,12 @@ main{
   flex-wrap: wrap;
 }
 
-/* main h2{
+main h2{
   font-size: 50px;
   width: 100%;
   text-align: center;
   margin: 10% 0%;
-} */
+}
 
 #faixa-matriz{
   display: flex;
