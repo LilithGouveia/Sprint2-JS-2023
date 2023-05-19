@@ -10,8 +10,8 @@ body{
   width: 100%;
   height: 100%;
   display: flex;
-  align-self: flex-end;
   flex-wrap: wrap;
+  align-self: flex-end;
 }
 
 h2{
@@ -87,6 +87,42 @@ main h2{
   background-repeat: repeat-x;
   background-image: url("../img/oxigenio.png");
   height: 20vh;
+}
+
+.contagem{
+  display: flex;
+  transform: scale(1);
+}
+
+.tempo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.tempo h2{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+
+@media(max-width: 500px){
+  h1{
+    font-size: 48px;
+  }
+  .tempo{
+    margin: 5px;
+  }
+  .tempo h2{
+    font-size: 18px;
+  }
+  .tempo small{
+    font-size: 12px;
+  }
 }
 
 footer{
