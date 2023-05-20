@@ -1,25 +1,34 @@
-const dias = document.querySelectorAll("dias");
-const horas = document.querySelectorAll("horas");
-const minutos = document.querySelectorAll("minutos");
-const segundos = document.querySelectorAll("segundos");
+let dataLancamento = new Date("June 28, 2023 12:00:00").getTime();
 
-const anoAtual = new Date().getFullYear();
+let timer = setInterval(tick, 1000);
 
-const novoAno = new Date(`Janeiro 1 $ {anoAtual + 1} 00:00:00`);
+function tick(){
+    let agora = new Date().getTime();
+    let t = dataLancamento - agora;
 
-function atualizaTempo(){
-    const tempoAtual = new Date();
-    const diff = novoAno - tempoAtual;
+    if(t > 0){
+        let dias =  Math.floor(t / (1000 * 60 * 60 * 24));
+        if(dias < 10){
+            dias = "0" + dias;
+        }
 
-    const d = Math.floor(diff / 1000 / 60 / 60 / 24);
-    const h = Math.floor(diff / 1000 / 60 / 60) % 24;
-    const m = Math.floor(diff / 1000 / 60) % 60;
-    const s = Math.floor(diff / 1000) % 60;
+        let horas = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        if(horas < 10){
+            horas = "0" + horas;
+        }
 
-    dias.innerHTML = d;
-    horas.innerHTML = h < 10 ? '0' + h : h;
-    minutos.innerHTML = m < 10 ? '0' + m : m;
-    segundos.innerHTML = s < 10 ? '0' + s : s;
+        let mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+        if(mins < 10){
+            mins = "0" + mins;
+        }
+
+        let segs = Math.floor((t % (1000 * 60)) / 1000);
+        if(segs < 10){
+            segs = "0" + segs;
+        }
+
+        let tempo = `${dias} : ${horas} : ${mins} : ${segs}`
+
+        document.querySelector(".contagem").innerText = tempo;
+    }
 }
-
-setInterval(atualizaTempo, 1000)
