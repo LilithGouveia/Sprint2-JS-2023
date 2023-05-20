@@ -1,77 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./css/style.css" rel="stylesheet" media="all" />
-  <script src="./js/script.js" defer></script>
-  <title>Aquatank</title>
-</head>
-<body>
-  <header>
-    <a href="./index.html">
-      <img src="./img/aquatank_logo.png" class="logo" alt="logo da aquatank composto por uma arvore de circuitos verdes">
-    </a>
-    <h2><a href="./pages/produto.html"> Produto </a></h2>
-    <h2><a href="./pages/contratar.html"> Como contratar </a></h2>
-    <h2><a href="./pages/pelomundo.html">AquaT pelo mundo</a></h2>
-    <h2 class="laranjinha"><a href="./pages/login.html"> Login </a></h2>
-  </header>
-  <main>
-    <div id="div-inicial">
-      <div>
-        <h2 id="title">Cansado de respirar ar sujo?</h2>
-        <p class="initial-text">Asma, infecções das vias aéreas superiores e incidência de câncer de pulmão e doenças cardiovasculares são apenas alguns dos sintomas que respirar poluição causa ao ser humano.
-        </p>
-        <p class="initial-text">
-          Junte-se a iniciativa capaz de acabar com isso!
-        </p>
-        <form name="increva-se">
-          <input type="text" id="nome" placeholder="Alexandre Carlos " required="required" name="nome" />
-          <small id="textName"></small>
-          <input type="" id="telefone" placeholder="(xx)xxxxx-xxxx" pattern="\(\d{2}\)\s*\d{5}-\d{4}" maxlength="15"/>
-          <small id="textFone"></small>
-          <input type="text" id="email" placeholder="nome@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
-          <small id="textEmail"></small>
-          <textarea placeholder="Deixe suas dúvidas ou comentários"></textarea>
-          <button>Enviar</button>
-        </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" media="all" />
+    <script src="./js/script.js" defer></script>
+    <title>Aquatank</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <img
+          src="./img/aquatank_logo.png"
+          class="logo"
+          alt="logo da aquatank composto por uma arvore de circuitos verdes"
+        />
+      </a>
+      <h2><a href="./pages/produto.html"> Produto </a></h2>
+      <h2><a href="./pages/contratar.html"> Como contratar </a></h2>
+      <h2><a href="./pages/pelomundo.html">AquaT pelo mundo</a></h2>
+      <h2 class="laranjinha"><a href="./pages/login.html"> Login </a></h2>
+    </header>
+    <main>
+      <div id="div-inicial">
+        <div>
+          <h2 id="title">Cansado de respirar ar sujo?</h2>
+          <p class="initial-text">
+            Asma, infecções das vias aéreas superiores e incidência de câncer de
+            pulmão e doenças cardiovasculares são apenas alguns dos sintomas que
+            respirar poluição causa ao ser humano.
+          </p>
+          <p class="initial-text">
+            Junte-se a iniciativa capaz de acabar com isso!
+          </p>
+          <form name="increva-se">
+            <input
+              type="text"
+              id="nome"
+              placeholder="Alexandre Carlos "
+              required="required"
+              name="nome"
+            />
+            <small id="textName"></small>
+            <input
+              type=""
+              id="telefone"
+              placeholder="(xx)xxxxx-xxxx"
+              pattern="\(\d{2}\)\s*\d{5}-\d{4}"
+              maxlength="15"
+            />
+            <small id="textFone"></small>
+            <input
+              type="text"
+              id="email"
+              placeholder="nome@mail.com"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            />
+            <small id="textEmail"></small>
+            <textarea
+              placeholder="Deixe suas dúvidas ou comentários"
+            ></textarea>
+            <button>Enviar</button>
+          </form>
         </div>
-        </div>
+      </div>
       <div id="div-secundaria">
         <h2 id="title2">O sistema AquaTank Sampa</h2>
         <div id="controle-detalhe">
           <h2 class="detalhe">227 tanques instalados</h2>
-          <h2 class="detalhe">Diminuição dos casos de infarto em 15% nos bairros</h2>
+          <h2 class="detalhe">
+            Diminuição dos casos de infarto em 15% nos bairros
+          </h2>
           <h2 class="detalhe">Diminuição dos casos de doenças respiratórias</h2>
         </div>
       </div>
     </main>
-  <aside>
-    <img src="./img/exemplo_homem.webp" alt="homem andando próximo ao aquario de algas">
-    <img src="./img/visao_cima.png" alt="visão de cima do aquário" class="img2">
-    <img src="./img/exemplo2tank.png" alt="visão de lado do aquário" class="img2">
-  </aside>
-  <footer>
-      <img src="./img/SF_IBM copy.png" alt="logo da empresa SoftForge com a IBM" class="logo2">
-      <h2><a href="./pages/construcao.html"> Trabalhe aqui </a></h2>
-      <h2><a href="./pages/construcao.html">
-        Fale com a gente
-      </a></h2>
+    <aside>
+      <img
+        src="./img/exemplo_homem.webp"
+        alt="homem andando próximo ao aquario de algas"
+      />
+      <img
+        src="./img/visao_cima.png"
+        alt="visão de cima do aquário"
+        class="img2"
+      />
+      <img
+        src="./img/exemplo2tank.png"
+        alt="visão de lado do aquário"
+        class="img2"
+      />
+    </aside>
+    <footer>
+      <img
+        src="./img/SF_IBM copy.png"
+        alt="logo da empresa SoftForge com a IBM"
+        class="logo2"
+      />
+      <h2><a href="../pages/trabalheaqui.html"> Trabalhe aqui </a></h2>
+      <h2><a href="./pages/construcao.html"> Fale com a gente </a></h2>
       <h2><a href="./pages/construcao.html"> Para empresas </a></h2>
       <h2><a href="./pages/construcao.html"> Blog </a></h2>
       <div>
         <p class="foo-text">
           <a href="./pages/construcao.html">
             Compliance
-            <br/>
+            <br />
             Política de Privacidade
-            <br/>
+            <br />
             Termos de Uso
           </a>
         </p>
       </div>
     </footer>
-</body>
+  </body>
 </html>
