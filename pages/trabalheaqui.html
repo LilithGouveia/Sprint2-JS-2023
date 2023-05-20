@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../css/contratar.css" rel="stylesheet" media="all" />
-    <title>Aquatank | Contratar</title>
+    <link href="../css/trabalheaqui.css" rel="stylesheet" media="all" />
+    <title>Aquatank | Trabalhe Aqui</title>
   </head>
   <body>
     <header>
@@ -23,17 +23,39 @@
       <h2><a href="../pages/pelomundo.html">AquaT pelo mundo</a></h2>
       <h2 class="laranjinha"><a href="../pages/login.html"> Login </a></h2>
     </header>
-    <main></main>
+    <main>
+      <div class="envie-txt">
+        <h2>Envie seu currículo para a Aquatank</h2>
+      </div>
+      <div class="conteudo-ta">
+        <p>
+          Você está em busca de novas oportunidades profissionais? Venha fazer
+          parte da equipe da Aquatank! Se você é apaixonado por inovação e está
+          em busca de um ambiente dinâmico e desafiador, envie-nos o seu
+          currículo. Estamos ansiosos para conhecer o seu potencial. Junte-se a
+          nós na Aquatank e construa um futuro mais sustentável!
+        </p>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="arquivo">Enviar currículo:</label>
+          <input type="file" id="arquivo" name="arquivo" required />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+      <div id="faixa-matriz"></div>
+    </main>
     <footer>
       <img
         src="../img/SF_IBM copy.png"
         alt="logo da empresa SoftForge com a IBM"
         class="logo2"
       />
-      <h2><a href="../pages/trabalheaqui.html"> Trabalhe aqui </a></h2>
-      <h2><a href="../pages/construcao.html"> Fale com a gente </a></h2>
-      <h2><a href="../pages/construcao.html"> Para empresas </a></h2>
-      <h2><a href="../pages/construcao.html"> Blog </a></h2>
       <div>
         <p class="foo-text">
           <a href="../pages/construcao.html">
@@ -45,6 +67,10 @@
           </a>
         </p>
       </div>
+      <h2><a href="../pages/trabalheaqui.html"> Trabalhe aqui </a></h2>
+      <h2><a href="../pages/construcao.html"> Fale com a gente </a></h2>
+      <h2><a href="../pages/construcao.html"> Para empresas </a></h2>
+      <h2><a href="../pages/construcao.html"> Blog </a></h2>
     </footer>
   </body>
 </html>
