@@ -1,5 +1,5 @@
-# Sprint1 - Web Development with Javascript
-Repositório referente a primeira sprint do challenge proposto pela FIAP em 2023
+# Sprint2 - Web Development with Javascript
+Repositório referente a segunda sprint do challenge proposto pela FIAP em 2023
 
 ---
 
@@ -7,15 +7,25 @@ Repositório referente a primeira sprint do challenge proposto pela FIAP em 2023
 
 O Grupo **SoftForge** está desenvolvendo um projeto que vai mudar a forma que respiramos nas grandes cidades, com previsão de lançamento para o segundo semestre de 2023!
 
-**Inscreva-se** em nosso formulário para conhecer a iniciativa antes de todos 🚀
+**Nosso novo site** já está quase pronto, e você você selecionado para dar uma olhadinha antes de todos! Curioso? 🚀
 
 ---
 
 ## Features implementadas:
 
-* Formulário com validações.
-* /////////////////////////
+### HomePage:
+
+* Formulário com validações (Refatorado).
 * Máscara de HTML feita com **Javascript** para formatação de telefone.
+* Implementação do botão de compartilhar nas redes sociais.
+
+### Página de Login:
+
+* Validação dos campos de email e senha.
+
+###  Página em construção:
+
+* Timer com contagem regressiva, mostrando os dias, horas, minutos e segundos para a página ficar pronta. ( Para acessar, clicar nas opções Fale com a gente, Blog, Etc.)
 
 --- 
 
